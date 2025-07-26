@@ -14,7 +14,7 @@ public class Person {
     public String getName() {
         return Name;
     }
-    void displayRecord() {
+    void displayDetails() {
         System.out.println("ID: " + id + ", Name: " + Name);
     }
 }
