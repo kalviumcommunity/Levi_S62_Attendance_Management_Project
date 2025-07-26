@@ -18,7 +18,7 @@ public class Course {
         return courseName;
     }
 
-    public void displayDetails() {
+    public void displayRecord() {
         System.out.println("Course ID: C" + this.courseId + ", Name: " + this.courseName);
     }
 }
