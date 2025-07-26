@@ -7,8 +7,8 @@ public class Staff extends Person {
         this.Role = Role;
     }
     @Override
-    public void displayRecord() {
-        super.displayRecord();
+    public void displayDetails() {
+        super.displayDetails();
         System.out.println("Role: " + Role);
     }
 }

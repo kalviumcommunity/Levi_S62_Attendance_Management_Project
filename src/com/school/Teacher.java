@@ -7,8 +7,8 @@ public class Teacher extends Person {
         this.subjectTaught = subjectTaught;
     }
     @Override
-    public void displayRecord() {
-        super.displayRecord();
+    public void displayDetails() {
+        super.displayDetails();
         System.out.println("Subject Taught: " + subjectTaught);
         System.out.println("Role: Teacher");
     } 
